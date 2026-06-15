@@ -2,7 +2,7 @@
 	"authors": [
 		"Sergei Giniatulin"
 	],
-    "targetType": "staticLibrary",
+    "targetType": "executable",
     "sourcePaths": ["source"],
     "cSourcePaths": ["sqlite_lib"],
     "dflags-ldc": ["-P=-DSQLITE_DISABLE_INTRINSIC","-mcpu=native"],
