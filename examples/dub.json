@@ -1,0 +1,10 @@
+{
+	"description": "Minimal sqlite native example",
+	"license": "MIT",
+	"authors": [
+		"Sergei Giniatulin"
+	],
+    "dependencies": { "sqlite_native": { "path": "../" } },
+	"copyright": "Copyright © 2026, Sergei Giniatulin",
+	"name": "sqlite_example"
+}

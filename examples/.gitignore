@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/sqlite_example
+sqlite_example.so
+sqlite_example.dylib
+sqlite_example.dll
+libsqlite_example.a
+sqlite_example.a
+sqlite_example.lib
+sqlite_example-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst

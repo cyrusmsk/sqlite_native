@@ -1,0 +1,14 @@
+{
+	"authors": [
+		"Sergei Giniatulin"
+	],
+    "targetType": "staticLibrary",
+    "sourcePaths": ["source"],
+    "cSourcePaths": ["sqlite_lib"],
+    "dflags-ldc": ["-P=-DSQLITE_DISABLE_INTRINSIC","-mcpu=native"],
+    "lflags-osx": ["-rpath", "@executable_path/"],
+	"copyright": "Copyright © 2026, Sergei Giniatulin",
+	"description": "A minimal D application.",
+	"license": "MIT",
+	"name": "sqlite_native"
+}
